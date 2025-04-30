@@ -1,0 +1,56 @@
+/* Hide scrollbars and prevent page overflow */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;  /* Hides both vertical and horizontal scrollbars */
+}
+
+
+.LogIN {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 300px; /* Adjust height as needed */
+  width: 400px; /* Adjust width as needed */
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto; /* Center the box horizontally on the page */
+}
+
+.LogIN input[type=text],
+.LogIN input[type=password] {
+  padding: 10px 15px; /* Increase padding for larger input size */
+  margin: 10px 10px; /* Add gap between inputs */
+  font-size: 17px; /* Keep font size as desired */
+  border: 2px solid black; /* Keep border styling */
+  border-radius: 15px; /* Optional: Rounded corners for inputs */
+  width: 100%; /* Full width of the container */
+}
+
+.Login {
+  margin-top: 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgb(118, 171, 40);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Login:hover {
+  opacity: 0.5;
+}
+
+.Forgot {
+  margin-top: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+}
