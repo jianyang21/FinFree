@@ -24,5 +24,6 @@ FinFree is a full-stack web app built using the MERN stack that helps users trac
 ---
 
 # Clone the repo
-git clone https://github.com/yourusername/finfree.git
+git clone https://github.com/jianyang21/finfree.git
+
 cd finfree
